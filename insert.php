@@ -31,7 +31,7 @@
             die("Database Connection Failed.");
         }
 
-        $query = "INSERT INTO `student`(`s_name`, `s_address`,`s_city`, `s_email`, s_contact, s_dob) VALUES 
+        $query = "INSERT INTO `student1`(`s_name`, `s_address`,`s_city`, `s_email`, s_contact, s_dob) VALUES 
 		('" . $name . "','" . $address . "','" . $city . "','" . $email . "','" . $contact . "','" . $dob . "')";
 		
 		
