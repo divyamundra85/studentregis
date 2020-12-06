@@ -37,7 +37,7 @@
 
                
                 $con = mysqli_connect($host, $user, $password, $database, $port);
-                $query = "SELECT * FROM `student`";
+                $query = "SELECT * FROM `student1`";
                 $result = mysqli_query($con, $query);
 
                 $c = 0;
