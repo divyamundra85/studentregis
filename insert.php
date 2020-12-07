@@ -52,41 +52,41 @@
 
                 <tr>
                    <td width = "100"><b>Name</b></td>
-                    <td><input name = "name" type = "text" 
-                               id = "name" placeholder="Name" required></td>
+                    <td><input name = "s_name" type = "text" 
+                               id = "s_name" placeholder="Name" required></td>
 							   
                 </tr>
 				
 				<tr>
                     <td width = "100"><b>Address</b></td>
-                    <td><textarea input name = "address"  
-                               id = "address" placeholder="Address" required></textarea></td>
+                    <td><textarea input name = "s_address"  
+                               id = "s_address" placeholder="Address" required></textarea></td>
 							   
                 </tr>
 				
 				<tr>
                     <td width = "100"><b>City</b></td>
-                    <td><input name = "city" type = "text" 
-                               id = "city" placeholder="City" required></td>
+                    <td><input name = "s_city" type = "text" 
+                               id = "s_city" placeholder="City" required></td>
                 </tr>
 
                 <tr>
                     <td width = "100"><b>Email</b></td>
-                    <td><input name = "email" type = "text" 
-                               id = "email" placeholder="Email" required></td>
+                    <td><input name = "s_email" type = "text" 
+                               id = "s_email" placeholder="Email" required></td>
                 </tr>
 
                 
                 <tr>
                     <td width = "100"><b>Contact</b></td>
-                    <td><input name = "contact" type = "text" 
-                               id = "contact" placeholder="Contact" required></td>
+                    <td><input name = "s_contact" type = "text" 
+                               id = "s_contact" placeholder="Contact" required></td>
                 </tr>
 				
                 <tr>
                     <td width = "150"><b>Dob</b></td>
-                   <td><input name = "dob" type="date" 
-                               id = "dob" placeholder="Date Of Birth" required><td>
+                   <td><input name = "s_dob" type="date" 
+                               id = "s_dob" placeholder="Date Of Birth" required><td>
                    
                 </tr>
 				
