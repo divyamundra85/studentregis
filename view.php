@@ -29,11 +29,11 @@
             </thead>
             <tbody>
                 <?php
-                //$host = 'student.cixpzvu9kx5t.us-east-1.rds.amazonaws.com';
-                //$user = 'admin';
-                //$password = 'divya1234';
-                //$database = 'student';
-                //$port = 3306;
+                $host = 'student.cixpzvu9kx5t.us-east-1.rds.amazonaws.com';
+                $user = 'admin';
+                $password = 'divya1234';
+                $database = 'student';
+                $port = 3306;
 
                
                 $con = mysqli_connect($host, $user, $password, $database, $port);
