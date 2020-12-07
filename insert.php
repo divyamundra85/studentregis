@@ -36,11 +36,11 @@
 		
 		
         $res = mysqli_query($conn, $query);
-	 echo "Record inserted";
+	 
 
-        //if ($res > 0) {
-           // header('location:view.php');
-       // }
+        if ($res > 0) {
+            header('location:view.php');
+        }
     }
     ?>
     <body>
